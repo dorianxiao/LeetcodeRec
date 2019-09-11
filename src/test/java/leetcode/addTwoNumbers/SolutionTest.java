@@ -65,6 +65,7 @@ public class SolutionTest {
 
     } 
 
+    // 将自定义链表转化为数组链表
     private ArrayList<Integer> ListToArray (ListNode ln) {
         ArrayList<Integer> arr = new ArrayList<>();
         while (ln != null) {
